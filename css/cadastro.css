@@ -174,7 +174,7 @@ input:valid ~ label{
 .left-itens{
     position: relative;
     left: 5vw;
-    bottom: 10vh;
+    bottom: 15vh;
 }
 
 .senha-login-form button{
