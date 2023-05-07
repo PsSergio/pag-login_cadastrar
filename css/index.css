@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Inter:wght@400;700&family=Noto+Sans:wght@500;700&family=Paytone+One&family=Roboto:wght@100;300&family=Titillium+Web:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(180deg, #7900A4, #1C1C1C);
+    overflow-x: hidden;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.left-itens img{
+    width: 8vw;
+}
+
+.nav-itens{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-itens a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+    margin: 0 3vw 0 3vw;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-itens a:hover{
+    color: #00E0FF;
+}
+
+.right-itens{
+    display: flex;
+    align-items: center;
+}
+
+.right-itens .carrinho-icon img{
+    margin-right: 5vw;
+    width: 4vw;
+}
+
+.login-btn button{
+    padding: 0.6vw 2vw;
+    background-color: #00E0FF;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5vw;
+    transition: all 0.3s ease-in-out;
+}
+
+.login-btn button:hover{
+    padding: 0.6vw 2vw;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    color: #00E0FF;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
