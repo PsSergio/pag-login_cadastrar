@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <title>CADASTRO</title>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="css/cadastro.css">
+            <script src="https://kit.fontawesome.com/9b6e71493a.js" crossorigin="anonymous"></script>
+        </head>
+        <body>
+
+            <section class="login">
+                <div class="login-container">
+                    <div class="left-itens">
+                        <div class="nav-pages">
+                            <div class="login-btn">
+                                <a href="singin.html" class="login-page">LOGIN</a>
+                            </div>
+                            <div class="cadastro-btn">
+                                <a href="#" class="cadastro-page">CADASTRO</a>
+                            </div>
+                        </div>
+                        <form action="" class="login-form" id="form1">
+                            <div class="nomeCompleto-login-form">
+                                <input required type="text" class="nome-completo">
+                                <label class="nome-completo">Nome completo</label>
+                            </div>
+                            <div class="nomeUsuario-login-form">
+                                <input required type="text" class="nome-usuario">
+                                <label class="nome-usuario">Nome de usuário</label>
+                            </div>
+                            <div class="email-login-form">
+                                <input required type="text" class="email">
+                                <label class="email">Email</label>
+                            </div>
+                            <div class="senha-login-form">
+                                <input required type="password" class="senha" id="valueSenha"> 
+                                <label class="senha">Senha</label>
+                                <button type="button" class="hide-eye-btn">
+                                    <i class="fa-solid fa-eye" id="btn-senha" onclick="mostrarSenha()"></i>
+                                </button>
+                            </div>
+                            <div class="submit-login-form">
+                                <button type="submit" form="form1" value="Submit" class="submit-btn">CADASTRAR</button>
+                            </div>
+                        </form>
+
+                        <script src="js/passwordControl.js"></script>
+                    </div>
+
+                    <div class="right-itens">
+                        <div class="title">
+                            <h1 class="h1-title">Bem-vindo(a)!</h1>
+                        </div>
+                        <div class="text">
+                            <p class="p-text">Você pode entrar em uma conta existente<br> 
+                                ou criar uma!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </body>
+    </html>
+    
+    

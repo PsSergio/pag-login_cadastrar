@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+section{
+    background-image: linear-gradient(180deg, #7900A4, #1C1C1C);
+    height: 100vh;
+}
+
+.login-container{
+    position: relative;
+    top: 25vh;
+    display: flex;
+}
+
+form{
+    margin-top: 10vh;
+    width: 100%;
+}
+
+form div{
+    margin-bottom: 10vh;
+}
+
+.nav-pages a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.nav-pages{
+    display: flex;
+    width: 25%;
+    margin-left: 0; 
+}
+
+.login-btn{
+    margin-right: 100%;
+    position: relative;
+}
+
+.login-btn::after{
+    content: " ";
+    width: 100%;
+    height: 2px;
+    background-color: #00FFF0;
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+}
+
+.cadastro-btn{
+    opacity: 50%;
+    position: relative;
+}
+
+.cadastro-btn:hover{
+    opacity: 100%;
+}
+
+.cadastro-btn::after{
+    content: " ";
+    width: 0;
+    height: 2px;
+    background-color: #00FFF0;
+    position: absolute;
+    left: 0;
+    bottom: -2px; 
+    opacity: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.cadastro-btn:hover::after{
+    width: 100%;
+    opacity: 100%;
+}
+
+.nomeUsuario-login-form div, .senha-login-form div{
+    margin-bottom: 0;
+}
+
+form input{
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    padding: 5px;
+    padding-right: 20vw;;
+    outline: 0;
+    transition: all 0.2s ease-in-out;
+    font-size: 0.8vw;
+}
+
+form label{
+    cursor: text;
+    position: relative;
+    font-size: 0.8vw;
+    left: 0;
+    bottom: 25px;
+    transition: all 0.3s ease-in-out;
+}
+
+form .senha-login-form label{
+    position: relative;
+    bottom: 33px;
+}
+
+input:focus, 
+input:valid{
+    border-bottom: 1px solid #00FFF0;
+}
+
+input:focus ~ label, 
+input:valid ~ label{
+    color: #00FFF0;
+    position: relative;
+    bottom: 45px;
+}
+
+.senha-login-form input:focus ~ label, 
+.senha-login-form input:valid ~ label{
+    color: #00FFF0;
+    position: relative;
+    bottom: 55px;
+}
+
+.submit-login-form button{
+    padding: 0.8vw 2.5vw;
+    background-color: #A129BF;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+}
+
+.right-itens{
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    right: 5vw
+}
+
+.right-itens h1{
+    font-size: 3vw;
+    margin-bottom: 7vh;
+}
+
+.right-itens p{
+    font-size: 2.8vh;
+}
+
+.left-itens{
+    position: relative;
+    left: 5vw;
+}
+
+.senha-login-form button{
+    padding: 0.8vw;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    bottom: 33px;
+    left: 31vw;
+    margin: 0;
+}
+
+.senha-login-form button i{
+    color: white;
+}
+
+.senha-login-form{
+    margin-bottom: 0;
+}
